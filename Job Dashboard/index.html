@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- sidebar -->
+    <div class="sidebar">
+      <h1 class="logo">Jobs Search</h1>
+      <div class="menus">
+        <a href="#"><ion-icon name="home-outline"></ion-icon>Home</a>
+        <a href="#"><ion-icon name="newspaper-outline"></ion-icon>Find jobs</a>
+        <a href="#"
+          ><ion-icon name="stats-chart-outline"></ion-icon>Performance</a
+        >
+        <a href="#"><ion-icon name="bookmarks-outline"></ion-icon>Bookmarks</a>
+        <a href="#"><ion-icon name="mail-unread-outline"></ion-icon>Message</a>
+        <a href="#"><ion-icon name="settings-outline"></ion-icon>Setting</a>
+      </div>
+      <div class="profile">
+        <img class="profile-img" src="/pic/profile.png" alt="profile image" />
+        <div class="profile-name">
+          <h4>Mahwish Siddiqui</h4>
+          <p>Software Engineer</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+      <div class="main-header">
+        <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Search your best job here..."
+          />
+          <button class="btn-search">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <div class="filter-wrapper">
+        <p>Recommendation</p>
+        <div class="filter">
+          <button class="btn-filter">Data Science</button>
+          <button class="btn-filter">Data Engineer</button>
+          <button class="btn-filter">Data Analyst</button>
+          <button class="btn-filter">Data Visualization</button>
+          <button class="btn-filter">CRM Analyst</button>
+        </div>
+      </div>
+      <div class="sort">
+        <p>Sort</p>
+        <div class="sort-list">
+          <select>
+            <option value="0">All</option>
+            <option value="1">Newest Post</option>
+            <option value="2">Oldest post</option>
+            <option value="3">Most Relevant</option>
+            <option value="4">Highest Paid</option>
+          </select>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="card">
+          <div class="card-left blue-bg">
+            <img src="/pic/google.png" />
+          </div>
+          <div class="card-center">
+            <h3>Google</h3>
+            <p class="card-detail">Data Science, Data Engineer</p>
+            <p class="card-loc">
+              <ion-icon name="location-outline"></ion-icon>Abcd street
+            </p>
+            <div class="card-sub">
+              <p><ion-icon name="today-outline"></ion-icon> 1 minutes ago</p>
+              <p><ion-icon name="hourglass-outline"></ion-icon> Full-time</p>
+              <p><ion-icon name="people-outline"></ion-icon> 200 Applicants</p>
+            </div>
+          </div>
+          <div class="card-right">
+            <div class="card-tag">
+              <h5>Division</h5>
+              <a href="#">Data Engineer</a>
+            </div>
+            <div class="card-salary">
+              <p><b>70,000</b> <span>/Monthly</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-left yellow-bg">
+            <img src="/pic/RA Logo.png" />
+          </div>
+          <div class="card-center">
+            <h3>RA Engineering services Pvt Ltd </h3>
+            <p class="card-detail">Service Manager</p>
+            <p class="card-loc">
+              <ion-icon name="location-outline"></ion-icon>Suite#216-217, Mashrique center, Block 14 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan
+            </p>
+            <div class="card-sub">
+              <p><ion-icon name="today-outline"></ion-icon>1 Day ago</p>
+              <p><ion-icon name="hourglass-outline"></ion-icon> Full-time</p>
+              <p><ion-icon name="people-outline"></ion-icon> 200 Applicants</p>
+            </div>
+          </div>
+          <div class="card-right">
+            <div class="card-tag">
+              <h5>Division</h5>
+              <a href="#">Service Manager</a>
+            </div>
+            <div class="card-salary">
+              <p><b>50,000</b> <span>/Monthly</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-left red-bg">
+            <img src="/pic/DAS .png" />
+          </div>
+          <div class="card-center">
+            <h3>Dar e Arqam School</h3>
+            <p class="card-detail">IT Incharge</p>
+            <p class="card-loc">
+              <ion-icon name="location-outline"></ion-icon>FB.Area Block 6 Campus 1 Karachi
+            </p>
+            <div class="card-sub">
+              <p><ion-icon name="today-outline"></ion-icon> 2Days ago</p>
+              <p><ion-icon name="hourglass-outline"></ion-icon> Full-time</p>
+              <p><ion-icon name="people-outline"></ion-icon> 200 Applicants</p>
+            </div>
+          </div>
+          <div class="card-right">
+            <div class="card-tag">
+              <h5>Division</h5>
+              <a href="#">IT Incharge</a>
+            </div>
+            <div class="card-salary">
+              <p><b>30,000</b> <span>/Monthly</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-left purple-bg">
+            <img src="/pic/LC.png" />
+          </div>
+          <div class="card-center">
+            <h3>lucky Cement </h3>
+            <p class="card-detail">CEO Assistant</p>
+            <p class="card-loc">
+              <ion-icon name="location-outline"></ion-icon>Abcd street
+            </p>
+            <div class="card-sub">
+              <p><ion-icon name="today-outline"></ion-icon>5 Month ago</p>
+              <p><ion-icon name="hourglass-outline"></ion-icon> Full-time</p>
+              <p><ion-icon name="people-outline"></ion-icon> 200 Applicants</p>
+            </div>
+          </div>
+          <div class="card-right">
+            <div class="card-tag">
+              <h5>Division</h5>
+              <a href="#">CEO Assistant</a>
+            </div>
+            <div class="card-salary">
+              <p><b>100,000</b><span>/Monthly</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- right section : detail jobs
+    <div class="detail">
+      <ion-icon class="close-detail" name="close-outline"></ion-icon>
+      <div class="detail-header">
+        <img src="/pic/google.png" />
+        <h2>Google</h2>
+        <p>Data Science</p>
+      </div>
+      <hr class="divider" />
+      <div class="detail-desc">
+        <div class="about">
+          <h4>About Company</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut sed
+            deleniti voluptate aut ad delectus.
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <hr class="divider" />
+        <div class="qualification">
+          <h4>Qualification</h4>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
+              perspiciatis esse! Voluptatibus voluptates asperiores nam atque
+              nisi.
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              nam repudiandae, fugit aut commodi. Facere.
+            </li>
+            <li>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
+              perspiciatis assumenda atque corporis nam reiciendis maiores eaque
+              deleniti veritatis.
+            </li>
+          </ul>
+        </div>
+        <hr class="divider" />
+        <div class="detail-btn">
+          <button class="btn-apply">Apply Now</button>
+          <button class="btn-save">Save Job</button> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Adding scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
